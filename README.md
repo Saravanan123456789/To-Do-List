@@ -1,5 +1,6 @@
-### Index.html
-```
+### index.html
+###index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color:black;
+            background-color:#afffb6;
             margin: 0;
             padding: 20px;
         }
@@ -17,7 +18,7 @@
             max-width: 600px;
             margin: auto;
             padding: 20px;
-            background-color:red;
+            background-color:#71eaff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
@@ -36,13 +37,13 @@
         }
         .add-task button {
             padding: 10px;
-            background-color:gray;
+            background-color:#4928ce;
             color: #fff;
             border: none;
             cursor: pointer;
         }
         .add-task button:hover {
-            background-color:bisque;
+            background-color:#291c0b;
         }
         .tasks {
             list-style: none;
@@ -80,9 +81,9 @@
     <script src="script.js"></script>
 </body>
 </html>
-```
-### Script.js
-```
+
+### script.js
+
 // Class representing a single task
 class Task {
     constructor(name) {
@@ -148,7 +149,7 @@ function addTask() {
     toDoList.addTask(taskName);
     taskInput.value = '';
 }
-```
-### Output
-![Screenshot (46)](https://github.com/Amrish-K/to-do-list/assets/130633944/acd55350-ebdb-4573-bfb6-827b43ef9272)
 
+### output
+
+![Screenshot (174)](https://github.com/Saravanan123456789/To-Do-List/assets/127467412/024cf7fa-dac2-48a9-969e-4ba06947133e)
